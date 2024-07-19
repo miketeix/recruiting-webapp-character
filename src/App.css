@@ -30,11 +30,24 @@
   flex: 1 1 0;
   background-color: hsl(220deg 13% 13%);
   color: white;
+  border: solid 1px white;
+  border-radius: 15px;
+  margin: 15px 0;
+  padding: 15px 0;
 }
 
 .App-link {
   color: #61dafb;
 }
+
+.character-class {
+  color: grey;
+}
+.character-class-active {
+  color: red;
+}
+
+.class-requirements-list {list-style-type: none;}
 
 @keyframes App-logo-spin {
   from {
